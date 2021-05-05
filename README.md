@@ -25,9 +25,16 @@ HZNUOJ，直接访问contest_sub_log.json.php?cid=xxxx即可获取相应场次�
 1. 网页必须以http协议访问，准备一个web服务器，Windows推荐用WAMP，MacOS推荐用MAMP。
 2. 把整个工程文件拷贝到服务器的目录下，在浏览器中访问index.html即可。
 
+## 2.1 本地访问方式
+Chrome启动时加入如下参数即可
+```
+--disable-web-security --user-data-dir=%TEMP%
+```
+
 ## 3. 操作说明
 
 不停按方向键右即可。
+应根据题目数量调整浏览器显示缩放率，至少80%以下否则会有溢出
 
 **如果切换了数据源，需要清空浏览器缓存再刷新。**
 
