@@ -12,7 +12,7 @@ acm-resover
 
 ## 1. 准备数据
 
-HZNUOJ，直接访问contest_sub_log.json.php?cid=xxxx即可获取相应场次的数据。
+NKOJ的旧版后台有导出比赛榜单数据功能，在导出前可按照提示输入打星选手的用户名和学校。
 
 或者也可以自己构造数据，json的格式在文档末尾。
 
